@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #151415;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.container{
+  background-color: #1e1e1f;
+  width: 100%;
+  max-width: 410px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 24px;
+}
+.perfile{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  color: white;
+}
+.perfile h1{
+  padding-top:26px;
+}
+.country{
+  color: #c8e85e;
+  padding: 9px 0 28px 0;
+  font-weight: 500;
+}
+.perfile .description{
+  font-size: 15px;
+  padding-bottom: 26px;
+}
+.avatar{
+  border-radius: 100px;
+  width: 90px;
+}
+.links{
+  width: 100%;
+}
+.links-itmes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.links-itmes .items1{
+  width: 100%;
+  height: 45px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.links-itmes .items1:hover{
+  background-color: #c8e85e;
+  color: black;
+  cursor: black;
+}
+
+@media screen and (min-width: 1041px) {
+  .container{
+    padding: 43px 43px;
+  }
+}
