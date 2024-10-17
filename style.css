@@ -28,14 +28,17 @@ body{
   flex-direction: column;
   align-items: center;  
   color: white;
+  font-family: "Inter", sans-serif;
+
 }
 .perfile h1{
   padding-top:26px;
+  font-weight: 400;
 }
 .country{
   color: #c8e85e;
-  padding: 6px 0 28px 0;
-  font-weight: 500;
+  padding: 6px 0 26px 0;
+  font-weight: 400;
 }
 .perfile .description{
   font-size: 15px;
